@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap");
+
+body {
+  height:750px;
+  width: 100%;
+  font-family: "Cal Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display:flex;
+  justify-content:center;
+  background-color:black;
+}
+
+.container {
+  align-self:center;
+  height:650px;
+  width:650px;
+  background-color:white;
+  display:flex;
+  flex-direction:column;
+  border-radius:10px
+
+}
+#input{
+  position:relative;
+  width:650px;
+  height:150px;
+border-radius:10px;
+display:flex;
+}
+
+#inputbox{
+  position:relative;
+ height:40px;
+ width:220px;
+ padding-left:35px;
+ font-size:12px;
+ left:30px;
+ top:40px;
+ border-radius:20px;
+ border:none;
+ background-color:#17202a;
+ color:white;
+
+}
+.fa-magnifying-glass{
+  align-self:center;
+  position:relative;
+  left:58px;
+  bottom:13px;
+  z-index:1;
+  color:white;
+}
+
+
+.location{
+display:flex;
+justify-content:center;
+
+}
+.date{
+  display:flex;
+justify-content:center;
+color:	#202020;
+}
+.circle,.image,.temp,.max_min{
+  display:flex;
+  justify-content:center;
+  padding:5px;
+}
+button{
+  height:40px;
+  width:80px;
+  border-radius:50px;
+  color:white;
+  background-color:black;
+  border:none;
+}
+
+.sun{
+height:60px;
+width:60px;
+border-radius:50%;
+background-color:orange;
+box-shadow: 5px 10px 18px #888888;
+}
+
+.temp{
+  font-size: 50px;
+  font-weight:600;
+}
+.max,.min{
+  font-size:15px;
+  padding-left:10px;
+  color:	#202020;
+}
+.values{
+  display:grid;
+   grid-template-columns:repeat(2,1fr);
+   grid-template-rows:repeat(2,1fr);
+
+}
