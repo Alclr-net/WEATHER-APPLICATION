@@ -5,16 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WEATHER APPLICATION</title>
   </head>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
   <link rel="stylesheet" href="weather.css" />
   <body>
     <div class="container">
       <div id="input">
         <i class="fa-solid fa-magnifying-glass"></i>
-        <input type=""text id="inputbox" placeholder="Search your city..."/></div>
+        <input type="" text id="inputbox" placeholder="Search your city..." />
+      </div>
       <div class="location">PUNE,INDIA</div>
-      <div class ="date">Friday,May 12 2025 11:03pm</div>
-      <div class="circle"><button>clear</button></div>
+      <div class="date">Friday,May 12 2025 11:03pm</div>
+      <div class="circle"><button>CLEAR</button></div>
       <div class="image"><div class="sun"></div></div>
       <div class="temp">29.8°C</div>
       <div class="max_min">
@@ -22,25 +29,25 @@
         <div class="min">Min:25°C</div>
       </div>
       <div class="values">
-        <div class="feels">
+        <div class="valueJS" id="feels">
           <i class="fa-solid fa-temperature-three-quarters"></i>
           <span>Feels Like</span>
           <span class="valueForFeel"></span>
         </div>
-        <div class="wind">
+        <div class="valueJS" id="wind">
           <i class="fa-solid fa-wind"></i>
           <span>Wind</span>
           <span class="valueForWind"></span>
         </div>
-        <div class="humidity">
+        <div class="valueJS" id="humidity">
           <i class="fa-solid fa-droplet"></i>
           <span>Humidity</span>
           <span class="valueForHumidity"></span>
         </div>
-        <div class="pressure">
-        <i class="fa-solid fa-gauge"></i>
-        <span>Pressure</span>
-        <span class="valueForPressure"></span>
+        <div class="valueJS" id="pressure">
+          <i class="fa-solid fa-gauge"></i>
+          <span>Pressure</span>
+          <span class="valueForPressure"></span>
         </div>
       </div>
     </div>
